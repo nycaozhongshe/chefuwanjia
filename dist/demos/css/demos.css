@@ -1,0 +1,79 @@
+body,
+html {
+	height: 100%;
+	-webkit-tap-highlight-color: transparent;
+	color: #333;
+}
+
+@font-face {
+	font-family: 'iconfont';
+	/* project id 381335 */
+	src: url('http://at.alicdn.com/t/font_381335_uqsd4drztt65hfr.eot');
+	src: url('http://at.alicdn.com/t/font_381335_uqsd4drztt65hfr.eot?#iefix') format('embedded-opentype'), url('http://at.alicdn.com/t/font_381335_uqsd4drztt65hfr.woff') format('woff'), url('http://at.alicdn.com/t/font_381335_uqsd4drztt65hfr.ttf') format('truetype'), url('http://at.alicdn.com/t/font_381335_uqsd4drztt65hfr.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: 'iconfont';
+}
+
+.icon-wrap {
+	font-size: 40px;
+	text-align: center;
+	line-height: 60px;
+	
+}
+
+.icon-wrap1 {
+	color: #db325a;
+}
+
+.icon-wrap2 {
+
+	color: #10b68c;
+}
+
+.icon-wrap3 {
+	color: #ff3a4d;
+}
+
+.icon-wrap4 {
+
+
+}
+
+.weui-navbar {
+	background: #db325a;
+}
+
+.weui-navbar .weui-navbar__item {
+	color: #fff;
+}
+
+.swiper_content {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.swiper-container img {
+	display: block;
+	width: 100%;
+}
+
+.item_height {
+	/*height: 1em;*/
+	background: #f5f2f0;
+	padding-left: 20px;
+	color: #ffa400;
+}
+
+.grid .weui-grid {
+	width: 25%;
+}
+
+.grid .weui-grid:after,
+.grid .weui-grid:before {
+	border: none;
+}
+.weui-cells{
+	margin-top:0;
+}

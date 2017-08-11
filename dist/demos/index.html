@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>jQuery WeUI</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="css/demos.css">
+	</head>
+
+	<body ontouchstart>
+		<header>
+			<div class="weui-navbar">
+				<div class="weui-navbar__item weui_bar__item_on">
+					车务办理
+				</div>
+			</div>
+		</header>
+		<section class="work">
+			<div class="swiper-container swiper_content">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide"><img src="./images/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="./images/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="./images/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="./images/banner.jpg" /></div>
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="weui-flex hr">
+				<div class="weui-flex__item item_height">服务项目</div>
+			</div>
+			<div class="weui-grids grid">
+				<a href="buttons.html" class="weui-grid js_grid ">
+
+					<div class="icon-wrap iconfont icon-wrap1">
+						&#xe679;
+					</div>
+
+					<p class="weui-grid__label">
+						异地车检
+					</p>
+				</a>
+				<a href="buttons.html" class="weui-grid js_grid">
+					<div class="icon-wrap iconfont icon-wrap2">
+						&#xe636;
+					</div>
+					<p class="weui-grid__label">
+						违章代缴
+					</p>
+				</a>
+				<a href="buttons.html" class="weui-grid js_grid icon-wrap3">
+					<div class="icon-wrap iconfont">
+						&#xe653;
+					</div>
+					<p class="weui-grid__label">
+						违章查询
+					</p>
+				</a>
+				<a href="buttons.html" class="weui-grid js_grid icon-wrap4">
+
+					<div class="icon-wrap iconfont">
+						&#xe77e;
+					</div>
+
+					<p class="weui-grid__label">
+						车辆检查
+					</p>
+				</a>
+
+		</section>
+		<section>
+			<div class="weui-flex hr">
+				<div class="weui-flex__item item_height">资讯中心</div>
+			</div>
+			<div class="weui-cells">
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>汽车年审</p>
+					</div>
+					<div class="weui-cell__ft">2017-04-18</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>汽车过户</p>
+					</div>
+					<div class="weui-cell__ft">2017-04-18</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>车辆查询</p>
+					</div>
+					<div class="weui-cell__ft">2017-04-18</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>车险价格表</p>
+					</div>
+					<div class="weui-cell__ft">2017-04-18</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="weui-flex__item item_height">咨询热线</div>
+			<div class="weui-cells">
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>咨询热线 400-166-0531</p>
+					</div>
+
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>地址：山东省济南市历山北路五金商务产业园B区413</p>
+					</div>
+
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>电话：400-166-0531</p>
+					</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd"><img src=""></div>
+					<div class="weui-cell__bd">
+						<p>邮箱：343316694@qq.com</p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<style>
+
+		</style>
+
+		<script src="../lib/jquery-2.1.4.js"></script>
+		<script src="../lib/fastclick.js"></script>
+		<script>
+			$(function() {
+				FastClick.attach(document.body);
+			});
+		</script>
+		<script src="../js/jquery-weui.js"></script>
+		<script src="../js/swiper.js"></script>
+
+		<script>
+			$(".swiper-container").swiper({
+				loop: true,
+				autoplay: 3000
+			});
+		</script>
+	</body>
+
+</html>
